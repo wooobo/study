@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="계산기를 구현합니다." tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-07T04:01:58" hostname="brich-mackbookui-MacBookPro.local" time="0.022">
+  <properties/>
+  <testcase name="2/4 의 결과는 2" classname="TestSum" time="0.02"/>
+  <testcase name="1+2 의 결과는 3" classname="TestSum" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
