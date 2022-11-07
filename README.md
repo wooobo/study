@@ -3,6 +3,7 @@
 # 시작전 세팅
 
 - [[MAC / IntelliJ] mac에서 IntelliJ 설치](https://joshwon.tistory.com/25)
+- [IntelliJ에 Google Java Style Guide 적용하기](https://tychejin.tistory.com/334)
 - java 8버전 이상
 - branch 를 분리시키세요. (자신만 의 브랜치를 만드세요.)
     - `ex) myname/level1`
