@@ -1,6 +1,8 @@
 package level1.calculate;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -11,11 +13,16 @@ public class CalculateTest {
     @Test
     @DisplayName("1+2 의 결과는 3")
     void sum() {
+        // given
         int a = 1;
         int b = 2;
 
-        int result = a + b;
 
+        // when
+        int result = Calculate.sum(a,b);
+
+
+        // then
         assertEquals(3, result);
     }
 
@@ -25,6 +32,9 @@ public class CalculateTest {
         int a = 4;
         int b = 2;
 
+        int result = Calculate.minus(a,b);
+
+        assertEquals(2, result);
     }
 
 
@@ -34,6 +44,10 @@ public class CalculateTest {
         int dividend = 4;
         int divisor = 2;
 
+        int result = Calculate.divide(dividend, divisor);
+
+        boolean bool = true;
+        assertTrue(bool);
     }
 
 }
