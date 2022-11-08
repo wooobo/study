@@ -19,14 +19,10 @@ public class CalculateTest {
 
 
         // when
-//        int result = a + b;
         int result = Calculate.sum(a,b);
 
 
         // then
-        // assert -> 검증한다
-        // 테스트코드 작성할 때는 실패한 코드를 먼저 작성한다.
-        // 프로덕션 코드를 짜기 전에 실패 -> 하드코딩 -> 리팩토링 과정을 거치는 것이 디버깅하기에도 좋다.
         assertEquals(3, result);
     }
 
@@ -52,8 +48,6 @@ public class CalculateTest {
 
         boolean bool = true;
         assertTrue(bool);
-//        assertEquals(2, result);
-//        assertThat((result).isEqualTo(2));
     }
 
 }
